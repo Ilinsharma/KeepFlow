@@ -5,8 +5,8 @@ import { supabase } from '@/lib/supabase/client';
 import { useRouter } from 'next/navigation';
 import { pdf } from '@react-pdf/renderer';
 import { ReportPDF } from '@/components/ui/ReportPDF';
-import Sidebar from '@/components/ui/SideBar';
-import Topbar from '@/components/ui/Topbar';
+import Sidebar from '@/components/ui/sidebar';
+import Topbar from '@/components/ui/topbar';
 
 function getCurrentWeekRange() {
   const today = new Date();
