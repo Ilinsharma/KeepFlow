@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Sidebar from '@/components/ui/SideBar';
-import Topbar from '@/components/ui/Topbar';
+import Sidebar from '@/components/ui/sidebar';
+import Topbar from '@/components/ui/topbar';
 import { supabase } from '@/lib/supabase/client';
 import { usePathname, useRouter } from 'next/navigation';
 import {
